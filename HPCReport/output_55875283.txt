@@ -1,0 +1,2 @@
+Sum value for meteo data has been calculated
+Mean value for meteo data has been calculated

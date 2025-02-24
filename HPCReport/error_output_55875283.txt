@@ -1,0 +1,31 @@
+load cdo 1.9.3 (GCC) library and binaries.
+load hdf5 1.10.1 (gcc) library and binaries.
+remove Scientific Linux 7 libraries.
+load Scientific Linux 7 libraries.
+remove Scientific Linux 7 libraries.
+load Scientific Linux 7 libraries.
+remove Scientific Linux 7 libraries.
+load Scientific Linux 7 libraries.
+remove netcdf 4.6.1 (GCC) library and binaries.
+remove Scientific Linux 7 libraries.
+load netcdf 4.6.1 (GCC) library and binaries.
+load Scientific Linux 7 libraries.
+load nco 4.7.5 (gcc) library and binaries.
+remove netcdf 4.6.1 (GCC) library and binaries.
+remove Scientific Linux 7 libraries.
+load netcdf 4.6.1 (GCC) library and binaries.
+load Scientific Linux 7 libraries.
+remove Scientific Linux 7 libraries.
+load Scientific Linux 7 libraries.
+cdo ymonsum: Started child process "selyear,1981/2019 /lustre/nobackup/WUR/ESG/zhou111/Data/Climate_Forcing/WFDE5/Prec_daily_1981-2019.nc (pipe1.1)".
+cdo(2) selyear: Processed 3692044800 values from 1 variable over 14244 timesteps [122.56s]
+cdo ymonsum: Processed 3692044800 values from 1 variable over 14244 timesteps [122.56s 99MB]
+cdo yearsum: Started child process "selyear,1981/2019 /lustre/nobackup/WUR/ESG/zhou111/Data/Climate_Forcing/WFDE5/Prec_daily_1981-2019.nc (pipe1.1)".
+cdo(2) selyear: Processed 3692044800 values from 1 variable over 14244 timesteps [99.11s]
+cdo yearsum: Processed 3692044800 values from 1 variable over 14244 timesteps [99.11s 56MB]
+cdo ymonmean: Started child process "selyear,1981/2019 /lustre/nobackup/WUR/ESG/zhou111/Data/Climate_Forcing/WFDE5/Tair_daily_1981-2019.nc (pipe1.1)".
+cdo(2) selyear: Processed 3692044800 values from 1 variable over 14244 timesteps [120.59s]
+cdo ymonmean: Processed 3692044800 values from 1 variable over 14244 timesteps [120.59s 97MB]
+cdo yearmean: Started child process "selyear,1981/2019 /lustre/nobackup/WUR/ESG/zhou111/Data/Climate_Forcing/WFDE5/Tair_daily_1981-2019.nc (pipe1.1)".
+cdo(2) selyear: Processed 3692044800 values from 1 variable over 14244 timesteps [108.21s]
+cdo yearmean: Processed 3692044800 values from 1 variable over 14244 timesteps [108.21s 53MB]
