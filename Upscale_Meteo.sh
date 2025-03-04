@@ -23,8 +23,8 @@ getSum () {
 	output_file_annual="${dir}/Prec_Annual_1981-2019.nc"
 	output_file_monthly="${dir}/Prec_Monthly_1981-2019.nc"
     
-	cdo -ymonsum -selyear,1981/2019 $input_file $output_file_monthly # Monthly sum for each year
-    cdo -yearsum -selyear,1981/2019 $input_file $output_file_annual # Annual sum for each year
+	cdo -monsum -selyear,1981/2019 $input_file $output_file_monthly # Monthly sum for each year
+    # cdo -yearsum -selyear,1981/2019 $input_file $output_file_annual # Annual sum for each year
     echo "Sum value for meteo data has been calculated"
 }
 
@@ -34,8 +34,8 @@ getMean() {
 	output_file_annual="${dir}/Tair_Annual_1981-2019.nc"
 	output_file_monthly="${dir}/Tair_Monthly_1981-2019.nc"
     
-    cdo -ymonmean -selyear,1981/2019 $input_file $output_file_monthly # Monthly mean for each year
-    cdo -yearmean -selyear,1981/2019 $input_file $output_file_annual # Annual sum for each year
+    cdo -monmean -selyear,1981/2019 $input_file $output_file_monthly # Monthly mean for each year
+    # cdo -yearmean -selyear,1981/2019 $input_file $output_file_annual # Annual sum for each year
 	echo "Mean value for meteo data has been calculated"
 }
 

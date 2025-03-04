@@ -29,8 +29,8 @@ MeteoList=('Prec' 'SWdown' 'Tmax' 'Tmin' 'Vap' 'Wind')
 CutMask(){
     for Meteo in "${MeteoList[@]}";
     do 
-        cdo sellonlatbox,${lonlatbox_Yangtze} ${input_dir}${Meteo}_daily_1981-2019.nc ${process_dir}Yangtze_${Meteo}_daily_1981-2019.nc
-        cdo selyear,1990/2019 ${process_dir}Yangtze_${Meteo}_daily_1981-2019.nc ${process_dir}Yangtze_${Meteo}_daily_1990-2019.nc
+        cdo sellonlatbox,${lonlatbox_Yangtze} ${input_dir}${Meteo}_daily_1981-2019.nc ${process_dir}Yangtze_${Meteo}_daily_1985-2019.nc
+        cdo selyear,1985/2019 ${process_dir}Yangtze_${Meteo}_daily_1985-2019.nc ${output_dir}Yangtze_${Meteo}_daily_1985-2019.nc
         # Check if the latitude needs to be inverted or not
         # cdo -invertlat ${process_dir}Yangtze_${Meteo}_daily_1990-2019.nc ${output_dir}${Meteo}_daily_1990-2019.nc
         echo "$Meteo.nc file has been cut and saved"
