@@ -1,0 +1,50 @@
+remove cdo 1.9.3 (GCC) library and binaries.
+remove hdf5 1.10.1 (gcc) library and binaries.
+remove Scientific Linux 7 libraries.
+load cdo 1.9.3 (GCC) library and binaries.
+load hdf5 1.10.1 (gcc) library and binaries.
+load Scientific Linux 7 libraries.
+remove Scientific Linux 7 libraries.
+load Scientific Linux 7 libraries.
+remove Scientific Linux 7 libraries.
+load Scientific Linux 7 libraries.
+remove netcdf 4.6.1 (GCC) library and binaries.
+remove Scientific Linux 7 libraries.
+load netcdf 4.6.1 (GCC) library and binaries.
+load Scientific Linux 7 libraries.
+cdo sellonlatbox: Processed 3692044800 values from 1 variable over 14244 timesteps [60.09s 56MB]
+cdo selyear: Processed 13805640 values from 1 variable over 14244 timesteps [1.39s 49MB]
+cdo sellonlatbox: Processed 3692044800 values from 1 variable over 14244 timesteps [48.16s 54MB]
+cdo selyear: Processed 13805640 values from 1 variable over 14244 timesteps [1.30s 49MB]
+cdo sellonlatbox: Processed 3692044800 values from 1 variable over 14244 timesteps [56.37s 54MB]
+cdo selyear: Processed 13805640 values from 1 variable over 14244 timesteps [1.33s 50MB]
+cdo sellonlatbox: Processed 3692044800 values from 1 variable over 14244 timesteps [57.03s 54MB]
+cdo selyear: Processed 13805640 values from 1 variable over 14244 timesteps [1.34s 50MB]
+cdo sellonlatbox: Processed 3692044800 values from 1 variable over 14244 timesteps [58.83s 54MB]
+cdo selyear: Processed 13805640 values from 1 variable over 14244 timesteps [1.33s 50MB]
+cdo sellonlatbox: Processed 3692044800 values from 1 variable over 14244 timesteps [59.05s 54MB]
+cdo selyear: Processed 13805640 values from 1 variable over 14244 timesteps [1.35s 50MB]
+cdo sellonlatbox: Processed 3692044800 values from 1 variable over 14244 timesteps [51.99s 52MB]
+cdo selyear: Processed 2991222 values from 1 variable over 14244 timesteps [1.04s 45MB]
+cdo sellonlatbox: Processed 3692044800 values from 1 variable over 14244 timesteps [40.08s 51MB]
+cdo selyear: Processed 2991222 values from 1 variable over 14244 timesteps [0.90s 43MB]
+cdo sellonlatbox: Processed 3692044800 values from 1 variable over 14244 timesteps [50.88s 51MB]
+cdo selyear: Processed 2991222 values from 1 variable over 14244 timesteps [0.94s 43MB]
+cdo sellonlatbox: Processed 3692044800 values from 1 variable over 14244 timesteps [49.43s 51MB]
+cdo selyear: Processed 2991222 values from 1 variable over 14244 timesteps [0.90s 43MB]
+cdo sellonlatbox: Processed 3692044800 values from 1 variable over 14244 timesteps [51.65s 51MB]
+cdo selyear: Processed 2991222 values from 1 variable over 14244 timesteps [0.91s 43MB]
+cdo sellonlatbox: Processed 3692044800 values from 1 variable over 14244 timesteps [50.24s 51MB]
+cdo selyear: Processed 2991222 values from 1 variable over 14244 timesteps [0.90s 43MB]
+cdo sellonlatbox: Processed 3692044800 values from 1 variable over 14244 timesteps [46.79s 55MB]
+cdo selyear: Processed 28186515 values from 1 variable over 14244 timesteps [1.67s 49MB]
+cdo sellonlatbox: Processed 3692044800 values from 1 variable over 14244 timesteps [41.01s 54MB]
+cdo selyear: Processed 28186515 values from 1 variable over 14244 timesteps [1.49s 49MB]
+cdo sellonlatbox: Processed 3692044800 values from 1 variable over 14244 timesteps [49.80s 54MB]
+cdo selyear: Processed 28186515 values from 1 variable over 14244 timesteps [1.54s 49MB]
+cdo sellonlatbox: Processed 3692044800 values from 1 variable over 14244 timesteps [49.04s 54MB]
+cdo selyear: Processed 28186515 values from 1 variable over 14244 timesteps [1.55s 49MB]
+cdo sellonlatbox: Processed 3692044800 values from 1 variable over 14244 timesteps [50.41s 55MB]
+cdo selyear: Processed 28186515 values from 1 variable over 14244 timesteps [1.57s 49MB]
+cdo sellonlatbox: Processed 3692044800 values from 1 variable over 14244 timesteps [50.62s 55MB]
+cdo selyear: Processed 28186515 values from 1 variable over 14244 timesteps [1.58s 49MB]
